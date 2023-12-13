@@ -1,0 +1,183 @@
+/* For search results page  */ 
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ margin-left: 50px;
+ position: absolute;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.university-details {
+  width: 400px;
+  margin-left: 50px;
+  padding-bottom: 0px;
+  margin-top: -60px;
+
+}
+
+.curriculum-details {
+  margin-top: 20px;
+  margin-right: 90px;
+  width: 50%;
+}
+
+.card {
+  background-color: #dfe9f1; /* Light blue color */
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-left: 4px solid #407AFE;
+
+}
+
+.scard{
+  margin-bottom: 50px;
+}
+
+/* for curriculum search bar */
+
+#curriculumSearch {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  height: 26px;
+  width: 300px;
+  border-radius: 5px;
+  border-color: rgb(207, 206, 206);
+  padding: 2px;
+}
+
+#curriculumButton{
+  height: 30px;
+  width: 100px;
+  border-radius: 40px;
+  border: #407AFE;
+  color: aliceblue;
+  background: #407AFE;
+}
+
+#curriculumSearchForm{
+  margin-bottom: 15px;
+  justify-content: right;
+  margin-inline-start: 61%;
+}
+/* for navigation */
+nav ul {
+  list-style-type: none;
+  margin: 20px 0 0 0;
+  padding: 0;
+  margin-inline-start: 50%;
+}
+
+li {
+  float: left;
+  margin-left: 20px;
+}
+
+li a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 30px;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+li a:hover {
+  color: #404dfe;
+}
+
+/* Logo */
+.logo {
+  position: absolute;
+  width: 120px;
+  height: 50.48px;
+  left: 6%;
+  top: 0px;
+}
+
+/* index page styles*/
+
+/* For search field*/
+#universitySearch{
+  margin-top: 50px;
+  margin-bottom: 8px;
+  height: 26px;
+  width: 300px;
+  border-radius: 5px;
+  border-color: rgb(207, 206, 206);
+  padding: 2px;
+}
+
+#universityButton{
+  height: 30px;
+  width: 100px;
+  border-radius: 40px;
+  border: #407AFE;
+  color: aliceblue;
+  background: #407AFE;
+}
+
+#curriculumSearchForm{
+  margin-bottom: 0px;
+  justify-content: right;
+  margin-inline-start: 60.5%;
+}
+
+/* For uni containers*/
+/*-------------------------------------------------------------------*/
+
+
+.front_container {
+  width: 430px;
+  height: 200px;
+  border: 1.8px solid  #407AFE;
+  box-sizing: border-box;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.front_container:nth-child(odd) {
+  margin: 15px;
+}
+.front_container:nth-child(even) {
+  margin: 15px;
+}
+
+.container_wrapper {
+  text-align: flex;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.row {
+display: flex;
+justify-content: center;
+}
+
+#logoTitle{
+width: 50%;
+}
+
+.tb{
+padding-left: 0px;
+width: 55%;
+
+}
+
+.button {
+background: #407AFE;
+color: #FFFFFF;
+border-radius: 90px;
+border: none;
+height: 35px;
+width: 180px;
+margin-bottom: 10px;
+}

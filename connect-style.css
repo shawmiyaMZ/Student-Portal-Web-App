@@ -1,0 +1,167 @@
+/* Navigation */
+
+nav ul {
+    list-style-type: none;
+    margin: 15px 0 0 0 ;
+    padding: 0;
+    margin-inline-start: 50%;
+
+}
+
+li {
+    float: left;
+    margin-left: 30px;
+}
+
+li a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 18px;
+}
+
+li a:hover {
+    color: #407AFE;
+    
+}
+
+/* Logo */
+
+.logo {
+    position: absolute;
+    width: 120px;
+    height: 50.48px;
+    left: 3%;
+    top: 0px;
+}
+
+
+/* Design Search field */
+
+#search {
+    margin-left: 75%;
+    margin-top: 50px;
+    border:1px solid #407AFE;
+    padding: 4px 0 4px 5px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.dropdown-arrow {
+    position: absolute;
+    top: 98px;
+    right: 29%;
+    z-index: 1;
+    
+}
+
+/* Make Dropdown for University and Aptitude */
+
+.dropbtn {
+  background-color: white;
+  /* color: white; */
+  padding: 4.5px 17px 4.5px 0;
+  width: 85px;
+  font-size: 15px;
+  border-radius: 4px;
+  border: 1px solid #407AFE;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  right: 28%;
+  top: 88px;
+  /* padding: 4px 17px 4px 5px; */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+.dropdown-input {
+    padding: 6px 10px 6px 10px ;
+    width: 84px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    /* padding: 4px 17px 4px 5px; */
+
+}
+
+.dropdown-input:hover {
+    background-color: #CFDDFE;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #407AFE;
+  color: white;
+}
+
+/* Design table */
+
+.fetch {
+    margin: 100px 0 0 5%;
+    text-align: center;
+    font-size: 14px;
+   
+    border-collapse: collapse;  
+}
+
+.fetch th {
+    color: #8F9093;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #CFDDFE;
+    padding: 5px 8px 5px 8px;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+    
+}
+
+table tr, table td {
+    border-bottom: 1px solid #CFDDFE;
+    padding: 10px;
+}
+
+
+#filters {
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+/* Make Stream Dropdown */
+
+#fetchval {
+    position: absolute;
+    right: 37%;
+    top: 88px;
+    padding: 4px 18px 4px 5px;
+    width: 136px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #407AFE;
+    cursor: pointer;
+}
+
+
+
+
+
+

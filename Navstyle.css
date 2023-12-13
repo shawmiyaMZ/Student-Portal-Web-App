@@ -1,0 +1,40 @@
+
+nav ul {
+  
+    list-style-type: none;
+    display: flex;
+    margin: 0 0 0 0 ;
+    padding: 0;
+    margin-inline-start: 45%;
+
+}
+
+
+li {
+    display: flex;
+    margin-left: 30px;
+}
+
+li a {
+    font-family: "Times New Roman";
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 18px;
+}
+
+li a:hover {
+    color: #407AFE;
+    
+}
+
+/* Logo */
+
+.logo {
+    position: absolute;
+    width: 120px;
+    height: 50.48px;
+    left: 3%;
+    top: 0px;
+}
